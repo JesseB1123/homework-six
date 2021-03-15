@@ -1,0 +1,31 @@
+.hero {
+    max-width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+
+    .hero-text {
+        width: 450px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 100px;
+        font-family: $big-site-font;
+
+        #title {
+            font-size: 50px;
+        }
+    
+        .details {
+            font-family: $site-font;
+            color: $site-white;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 18px;
+            padding: 40px 20px 60px 20px;
+        }
+    }
+}
